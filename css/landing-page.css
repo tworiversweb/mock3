@@ -12,7 +12,13 @@ html {
     font-size: 18px;
 }
 
-h1,
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    /*font-weight: 500;*/
+    font-size: 4em;
+    letter-spacing: 4px;
+}
+
 h2,
 h3,
 h4,
@@ -142,6 +148,10 @@ b{
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
+}
+
+.headshot {
+    max-height: 200px;
 }
 
 .content-section-a {
